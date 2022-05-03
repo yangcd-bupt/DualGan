@@ -1,5 +1,11 @@
 # DualGan
-使用Pytorch实现对偶生成对抗网络来实现图像去雾
+使用Pytorch实现对偶生成对抗网络来实现图像去雾  
+## 效果展示 
+<img src="https://github.com/yang-starry-sky/DualGan/blob/main/test_data/1403_4.png" width="512px"><img src="https://github.com/yang-starry-sky/DualGan/blob/main/predict/1403_4.jpg" width="512px">  
+<img src="https://github.com/yang-starry-sky/DualGan/blob/main/test_data/1404_7.png" width="512px"><img src="https://github.com/yang-starry-sky/DualGan/blob/main/predict/1404_7.jpg" width="512px">  
+<img src="https://github.com/yang-starry-sky/DualGan/blob/main/test_data/1408_10.png" width="512px"><img src="https://github.com/yang-starry-sky/DualGan/blob/main/predict/1408_10.jpg" width="512px">  
+loss  
+<img src="https://github.com/yang-starry-sky/DualGan/blob/main/loss.png" width="512px">  
 ## 使用说明
 DualGan含有两个生成器和辨别器  
 本项目中为同样结构，生成器为U-Net，辨别器为PatchGan的辨别器  
