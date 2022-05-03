@@ -32,5 +32,5 @@ predict.py用来预测无雾图像
 ## 预测方法
 将要训练的图片放到data_path的hazy下  
 运行predict.py并输入需要的参数即可  
-
+ps:dual.py为未拆分的初始代码，训练、预测结果均出自dual.py，未测试拆分后代码的可行性
 
